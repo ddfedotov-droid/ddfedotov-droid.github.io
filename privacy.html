@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DF agents privacy policy</title>
+  <meta name="description" content="How DF agents handles Gmail data: read-only, stored only on the owner's computer, never sold or shared.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="updated">DF agents · Last updated October 24, 2026</p>
+
+    <p>DF agents is a personal tool. Its only user is its owner, and it accesses only the owner's own Google account.</p>
+
+    <h2>Data it accesses</h2>
+    <p>With the owner's consent, DF agents uses the Gmail API with the read-only scope <code>gmail.readonly</code>. It reads only messages from bank senders the owner has explicitly listed. From each alert it keeps the date, amount, merchant name, and a message identifier.</p>
+
+    <h2>How the data is used and stored</h2>
+    <ul>
+      <li>The data is used only to build the owner's personal spending ledger.</li>
+      <li>The ledger and the access token are stored only on the owner's computer, and not on any server operated for this app.</li>
+      <li>DF agents never sends, modifies, labels, or deletes email.</li>
+    </ul>
+
+    <h2>Sharing</h2>
+    <p>Data is never sold, used for advertising, or shared with anyone. There is one optional exception that the owner controls. If the owner turns on merchant suggestions and clicks a button, the text of that single merchant name is sent to Anthropic's Claude API so it can explain what the merchant is. No email content, amounts, dates, or account details are sent.</p>
+
+    <h2>Limited use</h2>
+    <p>The use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+    <h2>Removing access</h2>
+    <p>The owner can revoke access at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and delete the local ledger and token from their computer.</p>
+
+    <nav><a href="index.html">DF agents home</a></nav>
+  </main>
+</body>
+</html>
